@@ -1,0 +1,11 @@
+
+{% block content %}
+
+
+<img class="thumbnail" src="{{object.image.url}}">
+<h1>{{ object.title }}</h1>
+<p>{{ object.description }}</p>
+<h4 style="display: inline-block; float: right"><strong>${{object.price}}</strong></h4>
+
+
+{% endblock %}
